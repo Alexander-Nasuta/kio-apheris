@@ -59,27 +59,26 @@ Temperature (`"Temp"`), time (`"Zeit"`), and pressure (`"Druck"`) are the target
 
 # Running the Code
 
-0. create a python environment with the required packages. here is an example with conda:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Alexander-Nasuta/kio-apheris.git
+   ```
+
+2. create a python environment with the required packages. here is an example with conda:
    ```bash
    conda create -n kio-apheris python=3.11
    conda activate kio-apheris
    ```
 
-1. Clone the repository:
-   ```bash
-   git clone 
-   ```
-
-2. Install the code locally (this will also install the dependencies):
+3. Install the code locally (this will also install the dependencies):
    ```bash
    pip install -e .
    ```
 
-3. Run the code:
+4. Run the code:
    ```bash
    python ./src/openhub/ml_code_standalone.py
    ```
-
 
 ## Contact
 
